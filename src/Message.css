@@ -3,6 +3,9 @@
     margin: 10px;
     width: fit-content;
 }
+.MuiPaper-rounded{
+    border-radius: 30px !important;
+}
 .message__user{
   margin-left: auto;
   text-align: left !important;

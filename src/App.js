@@ -71,8 +71,8 @@ function App() {
       </form>
 
       <FlipMove>
-        {messages.map(({ message, id }) => (
-          <Message message={message} userName={userName} key={id} />
+        {messages.map(({ message }, index) => (
+          <Message message={message} userName={userName} key={index} />
         ))}
       </FlipMove>
     </div>

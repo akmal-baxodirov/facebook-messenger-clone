@@ -8,9 +8,8 @@
   position:fixed;
   bottom: 0;
   z-index: 1;
-  background: #e9e9eb;
-  width: 95%;
-  margin: 20px;
+  background: white;
+  width: 98%;
 }
 .app__formControl{
   display: flex !important;
